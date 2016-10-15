@@ -12,5 +12,8 @@
     "follower"
   ],
   "author": "amadecode",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.4.0"
+  }
 }
