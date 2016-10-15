@@ -1,0 +1,16 @@
+{
+  "name": "twitterapp",
+  "version": "1.0.0",
+  "description": "Simple Twitter App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "twitter",
+    "follow",
+    "follower"
+  ],
+  "author": "amadecode",
+  "license": "ISC"
+}
