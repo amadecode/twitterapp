@@ -1,0 +1,12 @@
+html
+	head
+		title Sample Twitter App
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		link(rel="stylesheet", href="static/css/style.css")
+	body
+		div.row
+			div.col-md-6.col-md-offset-3
+				h1.text-center Follow Back List
+				form(action="get_users", method="POST")
+					input.form-control(type="text", name="handle", placeholder="Enter Name")
+					input.form-control.btn.btn-primary(type="submit", value="Get Users!")

@@ -1,0 +1,19 @@
+html
+	head
+		title Sample Twitter App
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		link(rel="stylesheet", href="static/css/style.css")
+	body
+		div.row
+			div.col-md-6.col-md-offset-3
+				h1.text-center Follow Back List
+				a.btn.btn-primary.pull-right(href="/") Go Back
+				div.clearfix
+				<hr>
+				ul.list-group
+					each user in users
+						a.list-group-item(href="https://twitter.com/" + user.screen_name)
+							img(src=user.avatar)
+							span= user.name
+							span.screen-name @
+								span= user.screen_name
